@@ -1,0 +1,55 @@
+body {
+    align-items: center;
+    background: rgb(3, 66, 50);
+    text-align: center;
+    color: rgb(244, 235, 235);  
+    user-select:none;
+}
+
+h1{
+    color:aquamarine;
+    font-size: 28px;
+}
+
+button{
+    height:40px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid rgb(90, 230, 25);
+}
+button:active{
+    transform: translate(0.5px, 0.5px)
+}
+
+
+#inputPassword{
+    letter-spacing: 2px;
+    text-align: center;
+    padding:5px;
+    margin:  15px 0;
+    color: rgba(240, 246, 231, 0.652);
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(10, 56, 5);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+#inputPassword::selection{
+    color: rgb(244, 248, 27);
+}
+
+
+
+p{
+    font-style: italic;
+    color: rgb(171, 161, 151);
+}
+
+#pPaswordCopy{
+    display:none;
+}
